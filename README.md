@@ -2,6 +2,8 @@
 
 Static site for [aibuilderslcr.co.uk](https://aibuilderslcr.co.uk). Vite + React + TypeScript + Tailwind CSS, no backend.
 
+Licensed under the [MIT License](LICENSE).
+
 ## Stack notes
 
 - **Vite + React (TypeScript), no Next.js.** Nothing here needs server-side rendering or API routes. If that changes (see "Custom event cards" below), that's the point to reconsider the stack, not before.
