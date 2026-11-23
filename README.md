@@ -4,6 +4,10 @@ Static site for [aibuilderslcr.co.uk](https://aibuilderslcr.co.uk). Vite + React
 
 Licensed under the [MIT License](LICENSE).
 
+## Issues and feature requests
+
+[Request a feature or report a bug](https://github.com/aibuilderslcr/website/issues/new/choose), or [browse the backlog](https://github.com/aibuilderslcr/website/issues). See [CONTRIBUTING.md](CONTRIBUTING.md) for the request process, status labels, and how to contribute.
+
 ## Stack notes
 
 - **Vite + React (TypeScript), no Next.js.** Nothing here needs server-side rendering or API routes. If that changes (see "Custom event cards" below), that's the point to reconsider the stack, not before.

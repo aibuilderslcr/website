@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an improvement or new feature for the AI Builders LCR website.
+title: "[Feature]: "
+labels: [enhancement, "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve [aibuilderslcr.co.uk](https://aibuilderslcr.co.uk)!
+        Search the [existing requests](https://github.com/aibuilderslcr/website/issues?q=is%3Aissue) first. If someone has suggested the same thing, add a thumbs-up reaction or useful context there.
+        Requests are public, so leave out personal information, passwords, and API keys.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Tell us who this would help and what they are trying to do.
+      placeholder: "As a visitor, I want to... so that..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      description: Describe the proposed feature or improvement in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: How would we know it works?
+      description: List the outcomes you would expect when this is finished.
+      placeholder: |
+        - Visitors can...
+        - On mobile...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you tried a workaround or considered another approach?
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Add relevant links, sketches, or screenshots. Remove any personal information first.

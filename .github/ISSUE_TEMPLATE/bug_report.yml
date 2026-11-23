@@ -1,0 +1,55 @@
+name: Bug report
+description: Report something broken, confusing, or inaccessible on the website.
+title: "[Bug]: "
+labels: [bug, "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the [existing reports](https://github.com/aibuilderslcr/website/issues?q=is%3Aissue) first. If the problem is already reported, add any new details there.
+        Reports are public. Remove personal information, passwords, and API keys from descriptions and screenshots.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+      description: Paste the page URL or describe where the problem happens.
+      placeholder: https://aibuilderslcr.co.uk/
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. See...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What happened instead? Include any visible error message.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Include your browser, operating system, and device. For accessibility issues, include any assistive technology you use, if relevant.
+      placeholder: Safari on iPhone, or Firefox on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Screenshots or extra context
+      description: Add anything else that helps explain the problem. Remove any personal information first.
